@@ -1,0 +1,42 @@
+.andrei{
+	background-color:green; 
+}
+
+.vlad{
+	background-color:red;
+}
+
+#one{
+	height:150px;
+	width:250px;
+	position: fixed;
+	top: 600px;
+	left: 150px;
+
+}
+
+
+#two{
+	height:100px;
+	width:150px;
+	position: relative;
+  	left:900px;
+  	top: 200px;
+}
+
+#three{
+	height:250px;
+	width:250px;
+	position: absolute;
+	top: 300px;
+	
+}
+
+#four{
+	height:400px;
+	width:400px;
+	position: absolute;
+	top:500px;
+	right:0px;
+	bottom:0px;
+}
