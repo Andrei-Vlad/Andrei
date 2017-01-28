@@ -1,15 +1,22 @@
 console.log("Hello World!");
 $(document).ready(function(){
 
-	$(".vlad").mouseenter(function() {
-		$(".andrei").hide() 
-	});
-	
-	$(".vlad").mouseleave(function() {
-		$(".andrei").show();	
-	});
+	$(".vlad").hover(function() 
+	{
+		$(".andrei").css("background-color","red"); 
+
+	}, function()
+				{
+					$(".andrei").css("background-color","green");
+				} );
 
 
-
-
+	$(".andrei").hover(function() {
+		$(".vlad").css("background-color","green");	
+	}, function()
+				{  	
+						$(".vlad").css("background-color","red");
+				});
 });
+
+
