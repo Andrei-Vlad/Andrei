@@ -1,6 +1,17 @@
 console.log("Hello World!");
 $(document).ready(function(){
+    $('div').hover(
+        function(){
+            color = $(this).css('background-color');
+            $('div').css('background-color', color);
+        },
+        function(){
+            $('div').css('background-color', '');
+        }
+        );
+    });
 
+/*
 	$(".vlad").hover(function() 
 	{
 		$(".andrei").css("background-color","red"); 
@@ -17,6 +28,6 @@ $(document).ready(function(){
 				{  	
 						$(".vlad").css("background-color","red");
 				});
-});
+*/
 
 
