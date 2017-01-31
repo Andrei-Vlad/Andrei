@@ -28,7 +28,7 @@
 	height:250px;
 	width:250px;
 	position: absolute;
-	top: 300px;
+	top: 500px;
 	
 }
 
@@ -39,4 +39,13 @@
 	top:500px;
 	right:0px;
 	bottom:0px;
+}
+
+#portocaliu{
+	background-color:orange;
+	height:250px;
+	width:250px;
+	position: fixed;
+	right:540px;
+	top:120px;
 }
