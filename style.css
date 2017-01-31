@@ -40,3 +40,12 @@
 	right:0px;
 	bottom:0px;
 }
+
+#portocaliu{
+	background-color:orange;
+	height:250px;
+	width:250px;
+	position: fixed;
+	right:540px;
+	top:120px;
+}
