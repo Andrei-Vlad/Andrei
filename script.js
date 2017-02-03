@@ -26,6 +26,15 @@ $(document).ready(function(){
 		console.log("change")
 		$("#para").html( string_chop($("#text").val(), $("#number").val()) );
 	});
+
+
+	
+	$(".valori").change(function(){
+		console.log("change")
+		$("#img").css("top", $('#x').val()+ "px")
+			     .css("left", $('#y').val()+ "px")
+			     .css("transform", "rotate("+ $('#r').val()+"deg)");
+	});
 });
 
 function string_chop(text, number){
@@ -37,4 +46,3 @@ function string_chop(text, number){
 
 };
 
- 
