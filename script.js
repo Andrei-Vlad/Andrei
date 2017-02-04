@@ -31,8 +31,8 @@ $(document).ready(function(){
 	
 	$(".valori").change(function(){
 		console.log("change")
-		$("#img").css("top", $('#x').val()+ "px")
-			     .css("left", $('#y').val()+ "px")
+		$("#img").css("top", $('#y').val()+ "px")
+			     .css("left", $('#x').val()+ "px")
 			     .css("transform", "rotate("+ $('#r').val()+"deg)");
 	});
 });
